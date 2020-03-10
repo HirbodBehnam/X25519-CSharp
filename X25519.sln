@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "X25519", "X25519\X25519.csproj", "{6BA1105C-EF74-4CEE-9FB8-0C9480B4D926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examples", "Examples\Examples.csproj", "{7D8B263D-EEEE-4621-A735-17C94FF54E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X25519Tests", "X25519Tests\X25519Tests.csproj", "{CFA3073E-7600-43CC-B329-CD806C9C0919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA1105C-EF74-4CEE-9FB8-0C9480B4D926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA1105C-EF74-4CEE-9FB8-0C9480B4D926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA1105C-EF74-4CEE-9FB8-0C9480B4D926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA1105C-EF74-4CEE-9FB8-0C9480B4D926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8B263D-EEEE-4621-A735-17C94FF54E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8B263D-EEEE-4621-A735-17C94FF54E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8B263D-EEEE-4621-A735-17C94FF54E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8B263D-EEEE-4621-A735-17C94FF54E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA3073E-7600-43CC-B329-CD806C9C0919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA3073E-7600-43CC-B329-CD806C9C0919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA3073E-7600-43CC-B329-CD806C9C0919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA3073E-7600-43CC-B329-CD806C9C0919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40DB8B25-390E-4E0C-B20E-27876982514A}
+	EndGlobalSection
+EndGlobal
