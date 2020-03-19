@@ -1,7 +1,7 @@
 # X25519 in C#
-A simple library base on [Golang's Curve25519](https://godoc.org/golang.org/x/crypto/curve25519) library.
+A simple library based on [Golang's Curve25519](https://godoc.org/golang.org/x/crypto/curve25519) library.
 ## Features
-* Easy to use frontend
+* Easy to use front end
 * Completely re written the Golang's crypto library in C#
 * Nearly fast (about 3000 Keys and Agreements/s)
 * Universal library with .Net Standard (You can also use this library anywhere in .Net (Read more below)
@@ -28,7 +28,7 @@ var shared2 = X25519KeyAgreement.Agreement(bob.PrivateKey, alice.PublicKey);
 // now the shared1 and shared2 must be same
 ```
 ## Use in older versions of .Net
-This library is build with .Net Standart 2; Means that minimum frameworks are .Net Core 2, .Net framework 4.6.1. [Full list](https://docs.microsoft.com/en-us/dotnet/standard/net-standard#net-implementation-support). You might want to use this library in .Net 2. It's easy to make this library in earlier version of .Net
+This library is built with .Net Standard 2; Means that minimum frameworks are .Net Core 2 and .Net framework 4.6.1. [Full list](https://docs.microsoft.com/en-us/dotnet/standard/net-standard#net-implementation-support). You might want to use this library in .Net 2. It's easy to make this library in earlier version of .Net
 
 **Note**: Due to usage of [RNGCryptoServiceProvider](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.rngcryptoserviceprovider?view=netframework-4.8) this library is not compatible with .Net Core 1.X.
 
