@@ -5,6 +5,12 @@ A simple library base on [Golang's Curve25519](https://godoc.org/golang.org/x/cr
 * Completely re written the Golang's crypto library in C#
 * Nearly fast (about 3000 Keys and Agreements/s)
 * Universal library with .Net Standard (You can also use this library anywhere in .Net (Read more below)
+## Install
+Use Nuget
+```
+Install-Package Easy-X25519
+```
+[Link](https://www.nuget.org/packages/Easy-X25519) to library on Nuget
 ## Usage
 ### Key Generation
 ```csharp
